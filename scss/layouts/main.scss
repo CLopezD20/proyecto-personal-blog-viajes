@@ -1,0 +1,56 @@
+.video-fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.primera-parte-main-inicio {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    div {
+        h1 {
+            color: $color-letra-1;
+            font-size: 110px;
+        }
+    }
+
+    div {
+        h2 {
+            color: white;
+        }
+    }
+
+}
+.segunda-parte-main-inicio{
+    margin:0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    .card-inicio{
+        width: 18rem;
+        @extend %bordes-card;
+        img{
+            height: 200px; //esto tendria que aplicarle a la pagina de mama para ver si mejora lo de las imagenes
+            object-fit: cover;
+            width: 100%;
+        }
+        a{
+            text-decoration: none;
+            h3{
+                padding: 1px;
+                margin-inline-end: 1rem;
+                text-align: center;
+                color: $color-letra-3;
+            }
+        }
+    }
+}
+.tercer-parte-main-inicio{
+    
+}

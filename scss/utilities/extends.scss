@@ -1,0 +1,11 @@
+@mixin respond-to($breakpoint){
+    @if $breakpoint == sm {
+        @media (max-width: 767px){margin: 1rem; align-items: end;}
+    } @else if $breakpoint ==md{
+        @media (min-width: 768px){margin-left: 20rem;margin-right: 12rem;align-items: center;}
+    }
+}
+%bordes-card{
+    border-color: #C7C7C7;
+    border-radius: 5px;
+}

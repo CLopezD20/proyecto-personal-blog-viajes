@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-personal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CLopezD20/proyecto-personal-blog-viajes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CLopezD20/proyecto-personal-blog-viajes/issues"
+  },
+  "homepage": "https://github.com/CLopezD20/proyecto-personal-blog-viajes#readme",
+  "description": ""
+}
