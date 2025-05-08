@@ -1,0 +1,15 @@
+footer{
+    display: flex;
+  background-color: $color-fondo-header;
+
+  img{
+    max-width: 50px;
+    padding: 2px;
+    margin:1rem;
+  }
+  h5{
+    margin-top: 1.5rem;
+    color:$color-letra-1;
+    margin-left: 1.5rem;
+  }
+}
