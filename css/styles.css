@@ -112,19 +112,73 @@ header div .a-de-header:hover {
   text-align: center;
 }
 
+.subtitulo-nos {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.card-nos {
+  background-color: #986C43;
+  border: black 1px solid;
+  border-radius: 0px;
+  margin: 1rem;
+}
+.card-nos .columnas {
+  padding: 0;
+}
+.card-nos img {
+  max-height: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.card-nos h3 {
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+.card-nos p {
+  padding: 1rem;
+  text-align: justify;
+}
+
 footer {
-  display: flex;
   background-color: #364037;
 }
-footer img {
+footer .iconos {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+footer .iconos img {
   max-width: 50px;
   padding: 2px;
   margin: 1rem;
 }
-footer h5 {
+footer .iconos h5 {
   margin-top: 1.5rem;
   color: #F4DEC9;
   margin-left: 1.5rem;
+}
+footer nav {
+  padding: 10px;
+}
+footer nav ul {
+  list-style: none;
+}
+footer nav ul li {
+  text-align: center;
+}
+footer nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer nav ul li a:hover {
+  color: #F4DEC9;
+}
+footer .frase-footer {
+  color: #F4DEC9;
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
