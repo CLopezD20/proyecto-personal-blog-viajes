@@ -1,29 +1,41 @@
-header{
-    background-color:$color-fondo-header;
-    img{
+header {
+    background-color: $color-fondo-header;
+    margin: 0;
+    padding: 2rem 1rem;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    img {
         margin: 1rem;
         max-width: 50px;
     }
-    h1{
+
+    h1 {
         margin-top: 1rem;
         text-align: start;
-        color:$color-letra-1;
+        color: $color-letra-1;
         margin-right: 1rem;
     }
-    div{
-        ul{
+
+    div {
+        ul {
             margin-top: 1.5rem;
-            li{
+
+            li {
                 align-items: end;
             }
         }
-        .a-de-header{
+
+        .a-de-header {
             text-decoration: none;
-            color:white;
+            color: white;
         }
-        .a-de-header:hover{
-            color:$color-letra-1;
+
+        .a-de-header:hover {
+            color: $color-letra-1;
         }
-            
-        }
+
     }
+}

@@ -1,5 +1,12 @@
 footer {
   background-color: $color-fondo-header;
+  margin: 0;
+  padding: 2rem 1rem;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
   .iconos {
     display: flex;
     flex-direction: row;
@@ -20,6 +27,7 @@ footer {
 
   nav {
     padding: 10px;
+
     ul {
       list-style: none;
 
@@ -28,16 +36,18 @@ footer {
 
         a {
           text-decoration: none;
-          color:white;
+          color: white;
         }
-        a:hover{
+
+        a:hover {
           color: $color-letra-1;
         }
       }
     }
   }
-  .frase-footer{
-    color:$color-letra-1;
+
+  .frase-footer {
+    color: $color-letra-1;
     margin-top: 20px;
 
   }
