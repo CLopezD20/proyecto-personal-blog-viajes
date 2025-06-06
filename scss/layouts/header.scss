@@ -38,4 +38,10 @@ header {
         }
 
     }
+
+    @media (max-width:425px) {
+        img {
+            max-width: 40px;
+        }
+    }
 }

@@ -3,3 +3,8 @@
 @import "./layouts/header.scss";
 @import "./layouts/main.scss";
 @import "./layouts/footer.scss";
+html, body {
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}

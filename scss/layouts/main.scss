@@ -1,40 +1,32 @@
 .video-fondo {
     @extend %formato-video-fondo;
+    
 }
 
 .video-contacto {
     @extend %formato-video-fondo;
 }
 
-.inicio {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-}
 
 .boton-inicio {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 1px solid $color-letra-3;
-    border-radius: 5px;
-    background-color: none;
-    margin: 1rem;
-
     a {
+        margin: 1rem;
+        align-items: center;
         text-decoration: none;
+        border: 1px solid $color-letra-3;
         color: $color-letra-3;
+        border-radius: 5px;
+        padding: 10px 20px;
+        text-align: center;
+        font-family: "Poppins";
+        background-color: none;
     }
 }
 
 .boton-inicio:hover {
-    border-color: $color-letra-2;
-
+    
     a {
+        border-color: $color-letra-2;
         color: $color-letra-2;
 
     }
@@ -52,12 +44,21 @@
             color: $color-letra-1;
             font-size: 110px;
         }
-    }
 
-    div {
         h2 {
             color: $color-letra-1;
             font-size: 60px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                text-align: center;
+                font-size: 5rem;
+            }
+
+            h2 {
+                font-size: 4rem;
+            }
         }
     }
 
@@ -112,7 +113,6 @@
         text-align: center;
         color: $color-letra-1;
     }
-
 }
 
 .cuarta-parte-del-main {
@@ -129,6 +129,11 @@
         border-radius: 0;
     }
 
+    @media (max-width:430px) {
+        .fotos {
+            padding-top: 1rem;
+        }
+    }
 }
 
 .h4-de-index {
@@ -185,7 +190,7 @@
     .subtitulo {
         text-align: justify;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
@@ -233,6 +238,16 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 70px;
     }
+
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 4rem;
+        }
+
+        h2 {
+            font-size: 3rem;
+        }
+    }
 }
 
 .extra-para-blog {
@@ -240,8 +255,17 @@
 }
 
 .imagen-blog {
-  width: 300px;  /* forzamos que se respete */
-  height: auto;
-  display: block;
-  margin: 0 auto;  /* centra la imagen si querés */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    img {
+        max-height: 100%;
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+        @media (max-width:430px){
+            max-width: 65vh;
+        }
+    } 
 }
