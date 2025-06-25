@@ -25,6 +25,11 @@
   width: 100vw;
 }
 
+.botones-alineados, .bot-ant, .bot-ext {
+  display: flex;
+  flex-direction: row;
+}
+
 header {
   background-color: #364037;
   margin: 0;
@@ -303,20 +308,14 @@ header .baar {
 }
 
 .bot-ext {
-  display: flex;
-  flex-direction: row;
   justify-content: end;
 }
 
 .bot-ant {
-  display: flex;
-  flex-direction: row;
   justify-content: flex-start;
 }
 
 .botones-alineados {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 

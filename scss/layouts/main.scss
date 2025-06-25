@@ -288,17 +288,14 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .bot-ext{
-    display: flex;
-    flex-direction: row;
+    @extend %formato-texto-blog;
     justify-content: end;
 }
 .bot-ant{
-    display: flex;
-    flex-direction: row;
+    @extend %formato-texto-blog;
     justify-content: flex-start;
 }
 .botones-alineados{
-    display: flex;
-    flex-direction: row;
+    @extend %formato-texto-blog;
     justify-content: space-between;
 }
