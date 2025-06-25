@@ -38,7 +38,10 @@ header {
         }
 
     }
-
+    .baar{
+        flex-grow: 0;
+        justify-content: space-between;
+    }
     @media (max-width:425px) {
         img {
             max-width: 40px;
